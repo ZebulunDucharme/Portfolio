@@ -1,0 +1,440 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption,  header, hgroup, 
+menu, nav, output, ruby, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	}
+
+/* HTML5 display-role reset for older browsers */
+
+article, aside, details, figcaption, figure, 
+ header, hgroup, menu, nav{
+	display: block;
+	}
+
+body {
+	line-height: 1;
+	}
+
+ol, ul {
+	list-style: none;
+	}
+
+blockquote, q {
+	quotes: none;
+	}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+	}
+	
+/* ------------------------------- START EDITING HERE ------------------------------- */
+
+body {
+	background-color: ;
+	}
+
+/* h1=Main Header; h2=Section Headers; h3=Navigation; h5=Footer; h6=Footer Extra; p=Section Descriptions */
+
+/* 1px 1px 1px 1px top right bottom left */
+
+/* padding<border<margin */
+
+/* border spacing for exculsively(?) tables to separate cells */
+
+a{
+	text-decoration: none;
+}
+
+hr{
+	border: black solid 3px;
+}
+
+h1{
+	font-family: elephant, serif;
+	font-size: 15em;
+	font-weight: ;/* comment out these */
+	color: #000000;
+	padding: ;
+	text-decoration: ;
+	text-transform: ;
+}
+	
+h2{
+	font-family: elephant, serif;
+	font-size: 9.5em;
+	font-weight: ;
+	color: #000000;
+	background-color: rgb(123,123,123);
+	background-color: rgba(123,123,123,0);
+	padding: 10px;
+	text-decoration: ;
+	text-transform: ;
+}
+
+h3{
+	font-family: rockwell, slab-serif;
+	font-size: 2.5em;
+	font-weight: ;
+	color: #000000;
+	background-color: rgb(123,123,123);
+	background-color: rgba(123,123,123,0);
+	padding: 10px;
+	text-decoration: ;
+	text-transform: ;
+}
+
+h5{
+	font-family: rockwell, slab-serif;
+	font-size: 2.5em;
+	font-weight: ;
+	color: #000000;
+	background-color: rgb(123,123,123);
+	background-color: rgba(123,123,123,0);
+	padding: 10px;
+	text-decoration: ;
+	text-transform: ;
+}
+	
+h6{
+	font-family: rockwell, slab-serif;
+	font-size: 1em;
+	color: #000000;
+	padding: 10px;
+}
+	
+p{
+	font-family: gadugi, sans-serif;
+	font-size: 3.17em;
+	font-weight: ;
+	line-height: 60px;
+	color: #000000;
+	padding: 10px;
+	text-decoration: ;
+	text-transform: ;
+}
+
+/* might not be needed */
+ul li{
+	display: inline-block;
+	background-color: ;
+	padding: ;
+	margin: ;
+}
+
+/* might not be needed */
+header{
+	background-color: ;
+	padding: ;
+	width: ;
+	height: ;
+	overflow: auto;
+}
+
+header nav ul li a{
+	color: black;
+	background-color: white;
+	text-align: center;
+	display: inline-block;
+	margin: 50px;
+	text-decoration: ;
+	vertical-align: middle;
+}
+	
+#portfolioTable{
+	background-color: none;
+	border-spacing: 10px;
+	border: 0px;
+	padding: 0px;
+	margin: -10px;
+}
+
+#portfolioTableFull{
+	background-color: none;
+	/*border-spacing: 100px;*/
+	border: 0px;
+	padding: 0px;
+	margin: 0px;
+}
+
+#referenceTable{
+	background-color: none;
+	border-spacing: 0px;
+	border: 0px;
+	padding: 0px;
+	margin-left: -30px;
+}
+	
+th{
+	border-bottom: 0px solid black;
+	border-left: 0px solid black;
+	text-align: center;
+	padding: 0px;
+}
+	
+td{
+	border: 0px solid black;
+}
+
+tr{
+
+}
+	
+#centerVert{
+	position: relative;
+	top: 11px;
+}
+	
+form{
+	font-family: Gadugi, sans-serif;
+	font-size: 1.5em;
+	border: ;
+	width: 100%;
+}
+
+input{
+	width: 78%;
+	padding: .5%;
+	font-family: Gadugi, sans-serif;
+	font-size: 1.5em;
+}
+
+textarea{
+	font-family: Gadugi, sans-serif;
+	font-size: 1.5em;
+	width: 78%;
+	margin: .75% 10% .75% 10%;
+	padding: .5%;
+}
+
+#welcome{
+	text-align: center;
+}
+
+#navlogo{
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.space{
+	width: 90%;
+	height: 450px;
+	margin: 0px;
+	padding: 5% 5% 5% 5%;
+}
+
+img.largeBox{
+	height: 450px;
+	width: 450px;
+	border: 5px solid black;
+	object-fit: cover;
+}
+
+img.smallBox{
+	height: 220px;
+	width: 220px;
+	border: 5px solid black;
+	object-fit: cover;
+}
+
+img.smallBoxPortfolio{
+	height: 450px;
+	width: 450px;
+	border: 5px solid black;
+	object-fit: cover;
+	margin: 1% 200px;
+}
+/*
+img.smallBoxPortfolio:hover {
+  -webkit-transform: scale(1.5,1.5);
+}
+*/
+img.circleBox{
+	border-radius: 50%;
+	height: 250px;
+	width: 250px;
+	border: 5px solid black;
+	margin-left: -5px;
+}
+
+.seventyColumnLeft{
+	width: 70%;
+	vertical-align: middle;
+	float: left;
+}
+
+.thirtyColumn{
+	width: 30%;
+	vertical-align: middle;
+	display: flex;
+}
+
+.thirtyColumnLeft{
+	width: 30%;
+	vertical-align: middle;
+	display: flex;
+	justify-content: right;
+}
+
+.seventyColumnRight{
+	width: 70%;
+	float: right;
+}
+
+#navBox{
+	position: fixed;
+	background-color: white;
+	width: 90%;
+	padding: 0% 5%;
+	border-bottom: solid black 7px;
+	justify: content;
+}
+
+#introbox{
+	background-color: white;
+	padding-top: 275px;
+}
+
+#portfolioBox{
+	background-color: #8dabfe;
+}
+
+.portfolioBoxTrue{
+	background-color: #8dabfe;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+.portfolioDescription{
+	background-color: #8dabfe;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+.portfolioText{
+	text-align: center;	
+	font-size: 0.8em;
+	width: 37%;
+	padding: 0% 5%;
+}
+
+#resumeBox{
+	background-color: #7397f9;
+}
+
+#resumeBoxTrue{
+	width: 60%;
+	object-fit: contain;
+}
+
+#referenceBox{
+	background-color: #6386e6;
+}
+
+#referenceBoxTrue{
+	width: 60%;
+	object-fit: contain;
+}
+
+#contactBox{
+	background-color: #5073d3;
+}
+
+#contactBoxTrue{
+	background-color: #5073d3;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+#contactBoxTrueSubmit{
+	background-color: #5073d3;
+	width: 100%;
+	display: flex;
+	justify-content: right;
+}
+
+footer{
+	width: 90%;
+	height: 180px;
+	padding: 5%;
+	background-color: black;
+	display: inline-block;
+}
+
+#socialBox{
+	width: 1000px;
+	margin: auto;
+	border: 0px dashed white;
+	display: flex;
+	justify-content: center;
+}
+
+footer section div a{
+	text-decoration: none;
+	color: white;
+}
+
+.socials{
+	color: white;
+	font-size: 3.2em;
+	font-family: rockwell, slab-serif;
+	text-align: center;
+	width: 300px;
+	margin: 10px 75px;
+	border: 3px solid white;
+	display: inline-block;
+}
+	
+footer section hr{
+	width: 40%;
+	margin: 10px;
+	display: inline-flex;
+	border: solid white 1px;
+}
+
+#footerSocial{
+	padding: 0px 10px;
+	text-align: center;
+	font-family: rockwell, slab-serif;
+	font-size: 2.5em;
+	color: white;
+}
+
+#copyright{
+	text-align: left;
+	font-family: rockwell, slab-serif;
+	font-size: 1em;
+	color: white;
+	float: left;
+}
+
+#bibleQuote{
+	text-align: right;
+	font-family: rockwell, slab-serif;
+	font-size: 1em;
+	color: white;
+	float: right;
+}
